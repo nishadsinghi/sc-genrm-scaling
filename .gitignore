@@ -1,4 +1,8 @@
 llmonk/outputs/
 *out*.txt
 *.png
+*.pickle
+*.pdf
 llmonk/evaluate/plots/
+llmonk/evaluate/plots_new/
+*__pycache__*
