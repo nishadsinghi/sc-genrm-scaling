@@ -15,7 +15,8 @@ zero_shot=False \
 dataset=math128 \
 max_tokens=1024 \
 apply_chat_template=False \
-save_every_n_samples=64
+save_every_n_samples=64 \
+gpus=0  # 0,1,2,3 for Llama 70B
 ```
 
 - Replace the `model` name for a different model
@@ -38,7 +39,8 @@ zero_shot=True \
 dataset=aime25 \
 max_tokens=32768 \
 apply_chat_template=True \
-save_every_n_samples=64
+save_every_n_samples=64 \
+gpus=0,1
 ```
 
 ## GPQA-Diamond
@@ -55,5 +57,6 @@ num_workers=32 \
 dataset=gpqa_diamond_64 \
 max_tokens=1024 \
 apply_chat_template=True \
-save_every_n_samples=64
+save_every_n_samples=64 \
+gpus=0,1,2,3
 ```

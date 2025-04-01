@@ -36,6 +36,7 @@ max_tokens=1024 \
 num_workers=32 \
 num_problems=128 \
 num_solutions=256 \
+gpus=0,1,2,3
 ```
 
 ## GenRM-Base on GPQA
@@ -55,6 +56,7 @@ max_tokens=1024 \
 num_workers=32 \
 num_problems=64 \
 num_solutions=64 \
+gpus=0,1,2,3
 ```
 
 ## QwQ-32B
@@ -74,4 +76,5 @@ max_tokens=32768 \
 num_workers=32 \
 num_problems=30 \
 num_solutions=32 \
+gpus=0,1
 ```
