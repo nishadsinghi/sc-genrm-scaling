@@ -91,7 +91,8 @@ async def generate(request: Request) -> Response:
         prompt = TokensPrompt(prompt_token_ids=input_ids)
 
     results_generator = engine.generate(
-        inputs=prompt, sampling_params=sampling_params, request_id=request_id
+        # inputs=prompt, sampling_params=sampling_params, request_id=request_id
+        prompt, sampling_params=sampling_params, request_id=request_id
     )
 
     # Streaming case
