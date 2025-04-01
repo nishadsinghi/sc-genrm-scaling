@@ -1,0 +1,118 @@
+You are a math teacher. Grade the Solution, verifying correctness step by step. At the end of the Solution verification, when you give your final grade, write it in the form 'Verification: Is the answer correct (Yes/No)? X', where X is either Yes or No.
+
+Example 1:
+
+Question: 
+Let  
+\\[
+f(x) =
+\\begin{{cases}}
+ax + 3, & \\text{{if }} x > 2, \\\\
+x - 5, & \\text{{if }} -2 \\leq x \\leq 2, \\\\
+2x - b, & \\text{{if }} x < -2.
+\\end{{cases}}
+\\]
+
+Find \\(a + b\\) if the piecewise function is continuous (which means that its graph can be drawn without lifting your pencil from the paper).
+
+Solution:
+The function is continuous at \\(x = 2\\) if \\(a(2) + 3 = (2) - 5\\), so \\(2a - 2 = -2\\), or \\(2a = 0\\), so \\(a = 0\\).
+
+Similarly, the function is continuous at \\(x = -2\\) if \\(2(-2) - b = (-2) - 5\\), so \\(-4 - b = -7\\), or \\(b = 3\\).
+
+Therefore, the sum of the coefficients is \\(a + b = 0 + 3 = \\boxed{{3}}\\).
+
+The final answer is \\(3\\). I hope it is correct.
+
+Expected Solution:
+For the piecewise function to be continuous, the cases must "meet" at \\(x = 2\\) and \\(x = -2\\). For example:  
+- \\(ax + 3\\) and \\(x - 5\\) must be equal when \\(x = 2\\). This implies \\(a(2) + 3 = 2 - 5\\), which we solve to get \\(2a = -6 \\implies a = -3\\).
+- Similarly, \\(x - 5\\) and \\(2x - b\\) must be equal when \\(x = -2\\). Substituting, we get \\(-2 - 5 = 2(-2) - b\\), which implies \\(b = 3\\).
+
+So \\(a + b = -3 + 3 = \\boxed{{0}}\\).
+
+
+Teacher Verification:
+Step 1: The student recognized that the function is continuous at \\(x = 2\\) and \\(x = -2\\) when the different cases of the piecewise function "meet." This is correct.  
+Step 2: At \\(x = 2\\), the student set the equations \\(ax + 3\\) and \\(x - 5\\) equal to each other, which is correct. The equation \\(2a + 3 = 2 - 5\\) is also correct, but \\(2a -2 = -2\\) is incorrect. The correct equation is \\(2a = -6\\).  
+Step 3: The student solved for \\(a\\) incorrectly, resulting in \\(a = 0\\). The correct solution is \\(a = -3\\).  
+Step 4: At \\(x = -2\\), the student set the equations \\(x - 5\\) and \\(2x - b\\) equal to each other, which is correct. The equation \\(-2 - 5 = 2(-2) - b\\) is also correct. Hence, the solution for \\(b\\), \\(b = 3\\) is also correct.
+Step 5: The student calculated the sum of the coefficients as \\(a + b = 0 + 3 = 3\\), but this is incorrect. The correct sum is \\(a + b = -3 + 3 = 0\\).  
+
+Verification: Is the answer correct (Yes/No)? No
+
+---
+
+Example 2:
+
+Question: 
+Sam is hired for a 20-day period. On days that he works, he earns $\$$60. For each day that he does not work, $\$$30 is subtracted from his earnings. At the end of the 20-day period, he received $\$$660. How many days did he not work?
+
+Solution: 
+Let $n$ be the number of days that he did not work. Then $20-n$ is the number of days that he did work. His earnings for working for $20-n$ days is $60(20-n)$, and his earnings for not working for $n$ days is $-30n$, since $30 is subtracted for each day that he did not work. Therefore, we can write the equation
+\begin{align*}
+60(20-n) - 30n &= 660\
+\Rightarrow\qquad 1200-60n-30n &= 660\
+\Rightarrow\qquad -90n &= -540\
+\Rightarrow\qquad n &= \frac{-540}{-90} = \boxed{6}.
+\end{align*}
+
+Final Answer: The final answer is $6$. I hope it is correct.
+
+
+Expected Solution: 
+Call $x$ the number of days Sam works and $y$ the number of days he does not. We can set up the following system of equations to represent the given information:
+\begin{align*}
+x + y &= 20 \
+60x - 30y &= 660 \
+\end{align*}
+The first equation represents the total number of days Sam works, and the second equation represents his total profit. Solving for $x$ in the first equation yields $x = 20 - y$. Substituting into the second equation gives $60(20-y) - 30y = 660$. Canceling a factor of $10$ and multiplying out gives $120 - 6y - 3y = 66$. This simplifies to $-9y = -54$, or $y = 6$. Thus, Sam did not work for $\boxed{6}$ days.
+
+Teacher Verification: 
+Problem Understanding:
+
+
+The student correctly identified that they need to find the number of days Sam did not work
+They used a single variable approach (n for days not worked) rather than the ground truth's system of equations approach, which is also valid
+
+
+Equation Setup:
+
+
+Student used n for days not worked and (20-n) for days worked
+This matches the ground truth's relationship x + y = 20, just expressed differently
+The earnings equation 60(20-n) - 30n = 660 is equivalent to the ground truth's 60x - 30y = 660
+
+
+Solution Process:
+
+
+The student correctly expanded 60(20-n) to 1200-60n
+They properly combined like terms (-60n-30n = -90n)
+The equation simplification -90n = -540 is correct
+The final division to get n = 6 is accurate
+
+
+Reasoning:
+
+
+While the student used a different approach than the ground truth (one variable vs. system of equations), their method is mathematically sound
+Both solutions arrive at the same answer through valid algebraic steps
+The student's work shows clear understanding of the problem and proper mathematical reasoning
+
+Verification: Is the answer correct (Yes/No)? Yes
+
+--
+
+Now, continue grading the next solution step-by-step as follows.
+
+Question: {} 
+
+Solution: {}
+
+Expected Solution: {}
+
+Teacher Verification:
+
+
+

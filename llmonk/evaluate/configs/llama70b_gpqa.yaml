@@ -1,0 +1,20 @@
+samples_dir: "/pfss/mlde/workspaces/mlde_wsp_Rohrbach/users/ns94feza/large_language_monkeys/llmonk/outputs/gpqa_diamond_64/Llama-3.3-70B-Instruct_2K_tokens"
+verifications_dir: "/pfss/mlde/workspaces/mlde_wsp_Rohrbach/users/ns94feza/large_language_monkeys/llmonk/outputs/verifications/gpqa_diamond_64/Llama-3.3-70B-Instruct_2K_tokens/ver_model--Llama-3.3-70B-Instruct__max_tokens--4096"
+all_num_solutions_plot: [1, 2, 4, 8, 16, 32, 64]
+all_num_solutions_plot_no_verif: [1, 2, 4, 8, 16, 32, 64, 128]
+all_num_verifications_plot: [1, 2, 4, 8, 16, 32]
+plot_save_dir: "plots_new/gpqa_diamond_64/Llama-3.3-70B-Instruct_2K_tokens/ver_model--Llama-3.3-70B-Instruct__max_tokens--4096"
+
+max_num_solutions_without_verifs: 128
+max_num_solutions_with_verifs: 64
+max_num_verifications: 32
+math_type: "minerva"
+plot_title: "GPQA-D Llama 3.3 70B GenRM-Base"
+lamb: 1.0
+model: 'llama70b'
+
+use_hybrid: true
+recompute: true
+best_of_n: true
+majority_voting: true
+fix_num_verifications: true

@@ -1,0 +1,20 @@
+samples_dir: "/pfss/mlde/workspaces/mlde_wsp_Rohrbach/users/ns94feza/large_language_monkeys/llmonk/outputs/math128/Qwen2.5-7B-Instruct"
+verifications_dir: "/pfss/mlde/workspaces/mlde_wsp_Rohrbach/users/ns94feza/large_language_monkeys/llmonk/outputs/verifications/math128/Qwen2.5-7B-Instruct/ver_model--qwen_2.5_7b_verifier_train_gpt_4o_lr5e-7__max_tokens--4096"
+all_num_solutions_plot: [1, 2, 4, 8, 16, 32, 64, 128, 256]
+all_num_solutions_plot_no_verif: [1, 2, 4, 8, 16, 32, 64, 128, 256]
+all_num_verifications_plot: [1, 2, 4, 8, 16, 32]
+plot_save_dir: "plots_new/math128/Qwen2.5-7B-Instruct/ver_model--qwen_2.5_7b_verifier_train_gpt_4o_lr5e-7__max_tokens--4096"
+
+max_num_solutions_without_verifs: 256
+max_num_solutions_with_verifs: 256
+max_num_verifications: 32
+math_type: "minerva"
+plot_title: "MATH128 Qwen 2.5 7B GenRM-FT"
+lamb: 2.0
+
+use_hybrid: true
+use_verification_logprobs: false
+recompute: true
+best_of_n: true
+majority_voting: true
+fix_num_verifications: true

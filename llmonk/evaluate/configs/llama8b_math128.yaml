@@ -1,0 +1,20 @@
+samples_dir: "/pfss/mlde/workspaces/mlde_wsp_Rohrbach/users/ns94feza/large_language_monkeys/llmonk/outputs/math128/Llama-3.1-8B-Instruct"
+verifications_dir: "/pfss/mlde/workspaces/mlde_wsp_Rohrbach/users/ns94feza/large_language_monkeys/llmonk/outputs/verifications/math128/Llama3.1_8B_Instruct/ver_model--llama3.1-8b_train_gpt_4o_verifications_e3_lr5e-7-31389-merged"
+all_num_solutions_plot: [1, 2, 4, 8, 16, 32, 64, 128, 256]
+all_num_solutions_plot_no_verif: [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384]
+all_num_verifications_plot: [1, 2, 4, 8, 16, 32]
+plot_save_dir: "plots_new/math128/Llama3.1_8B_Instruct/ver_model--llama3.1-8b_train_gpt_4o_verifications_e3_lr5e-7-31389-merged"
+
+max_num_solutions_without_verifs: 16384
+max_num_solutions_with_verifs: 256
+max_num_verifications: 32
+math_type: "minerva"
+plot_title: "MATH128 Llama 3.1 8B GenRM-FT"
+lamb: 2.0
+
+use_hybrid: false
+use_verification_logprobs: false
+recompute: true
+best_of_n: true
+majority_voting: true
+fix_num_verifications: true

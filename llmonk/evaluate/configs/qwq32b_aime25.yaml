@@ -1,0 +1,19 @@
+samples_dir: "/pfss/mlde/workspaces/mlde_wsp_Rohrbach/users/ns94feza/large_language_monkeys/llmonk/outputs/aime25/QwQ-32B_32K_tokens"
+verifications_dir: "/pfss/mlde/workspaces/mlde_wsp_Rohrbach/users/ns94feza/large_language_monkeys/llmonk/outputs/verifications/aime25/QwQ-32B_32K_tokens/ver_model--QwQ-32B__max_tokens--32768_ZERO_SHOT"
+all_num_solutions_plot: [1, 2, 4, 8, 16, 32]
+all_num_solutions_plot_no_verif: [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
+all_num_verifications_plot: [1, 2, 4, 8, 16, 32, 64]
+plot_save_dir: "plots_new/aime25/QwQ-32B_32K_tokens/ver_model--QwQ-32B__max_tokens--32768_ZERO_SHOT"
+
+max_num_solutions_without_verifs: 512
+max_num_solutions_with_verifs: 32
+max_num_verifications: 64
+math_type: "hendrycks"
+plot_title: "AIME25 QwQ-32B 0-shot"
+lamb: 1.0
+
+use_hybrid: true
+recompute: true
+best_of_n: true
+majority_voting: true
+fix_num_verifications: true

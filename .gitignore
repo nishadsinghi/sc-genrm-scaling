@@ -1,0 +1,4 @@
+llmonk/outputs/
+*out*.txt
+*.png
+llmonk/evaluate/plots/

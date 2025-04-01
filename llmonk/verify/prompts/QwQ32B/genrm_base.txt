@@ -1,0 +1,8 @@
+Question: {}
+
+Solution: {}
+
+You are a math teacher. Grade the Solution, verifying correctness step by step. Make sure to reason step-by-step about deviations from the correct solution of the question.
+At the end of the Solution verification, when you give your final grade, write it in the form 'Verification: Is the answer correct (Yes/No)? X', where X is either Yes or No. Make sure to end your answer in this format.
+
+Teacher Verification:

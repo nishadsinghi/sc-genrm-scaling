@@ -1,0 +1,7 @@
+You are a teacher expert in physics, biology, and chemistry. Grade the Solution, verifying correctness step by step. At the end of the Solution verification, when you give your final grade, write it in the form 'Verification: Is the answer correct (Yes/No)? X', where X is either Yes or No.
+
+Question: {}
+
+Solution: {}
+
+Teacher Verification:
