@@ -160,6 +160,7 @@ Every problem has a separate folder, and every YAML file inside the problem cont
   - `p(no)`: probability of the token `No` in the sampled output
   - `verification`: the verification text
 
+You can find more information [here](llmonk/verify/README.md).
 
 ## Plot Success Rates
 
