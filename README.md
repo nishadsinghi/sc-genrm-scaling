@@ -203,9 +203,9 @@ If you use this code in your research, please cite our paper. You can use the fo
       title={When To Solve, When To Verify: Compute-Optimal Problem Solving and Generative Verification for LLM Reasoning}, 
       author={Nishad Singhi and Hritik Bansal and Arian Hosseini and Aditya Grover and Kai-Wei Chang and Marcus Rohrbach and Anna Rohrbach},
       year={2025},
-      eprint={},
+      eprint={2504.01005},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
-      url={}, 
+      url={https://arxiv.org/abs/2504.01005}, 
 }
 ```
