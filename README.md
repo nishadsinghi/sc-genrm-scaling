@@ -3,7 +3,7 @@
 <h1>When To Solve, When To Verify: Compute-Optimal Problem Solving and Generative Verification for LLM Reasoning</h1>
 
 <p align="center">
-  <a href="https://huggingface.co/sc-genrm-scaling">🤗 Huggingface</a> • <a href="https://arxiv.org/"> 📄 Paper</a>
+  <a href="https://huggingface.co/sc-genrm-scaling">🤗 Huggingface</a> • <a href="https://arxiv.org/abs/2504.01005"> 📄 Paper</a>
 </p>
 
 Authors: [Nishad Singhi*](https://nishadsinghi.github.io), [Hritik Bansal*](http://sites.google.com/view/hbansal), [Arian Hosseini*](https://arianhosseini.github.io/), [Aditya Grover](https://aditya-grover.github.io/), [Kai-Wei Chang](https://web.cs.ucla.edu/~kwchang/), [Marcus Rohrbach](https://rohrbach.vision/), [Anna Rohrbach](https://anna-rohrbach.net/) \
