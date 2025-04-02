@@ -2,7 +2,7 @@
 
 ```
 python3 llmonk/verify/generate_verifications.py \
-model=hbXNov/llama3.1-8b_train_gpt_4o_verifications_e3_lr5e-7-31389-merged \
+model=sc-genrm-scaling/llama_3.1_8b_genrm_ft \
 verification_template=llmonk/verify/prompts/llama3.1_8b_instruct/finetuned.txt \
 output_dir=llmonk/outputs/verifications/<verification_folder_name> \
 samples_dir=llmonk/outputs/<folder_where_solutions_are_saved> \
