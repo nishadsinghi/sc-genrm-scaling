@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>When To Solve, When To Verify: Compute-Optimal Problem Solving and Generative Verification for LLM Reasoning</h1>
+<h1>[COLM 2025] When To Solve, When To Verify: Compute-Optimal Problem Solving and Generative Verification for LLM Reasoning</h1>
 
 <p align="center">
   <a href="https://huggingface.co/sc-genrm-scaling">🤗 Huggingface</a> • <a href="https://arxiv.org/abs/2504.01005"> 📄 Paper</a>
